@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counter</title>
+    <!-- css link-->
+    <link rel="stylesheet" href="counter.css">
+</head>
+
+<body>
+
+    <div class="parent">
+
+        <h1> COUNTER APPLICATION </h1>
+
+        <div id="displayBox"> 0  </div>
+        <h1 style="width: 40%;" id="even_odd"> 0 </h1>
+        <div class="push">
+            <button type="button" onclick=" increment()"> INCREMENT(+) </button>
+            <button type="button" onclick=" decrement()" id="decrementBtn"> DECREMENT(-) </button>
+            <!-- button to reset page -->
+            <button type="button" onclick=" location.reload()"> Reset </button>
+        </div>
+    </div>
+
+    <script src="counter.js"> </script>
+
+</body>
+
+</html>
